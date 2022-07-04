@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-image: url('../assets/Image2.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 50px 20vw ;
+    padding: 30px 20px ;
+    border: 2px solid black;
+} 
+.background{
+    opacity: 0.9;
+}
+.form-control:focus,.form-select:focus{
+    box-shadow: none;
+}
+input#formFile{
+    width: 90%;
+}
+
+#firstrow{
+    gap: 10px;
+    margin-left: 0;
+}
+#secondRow{
+    width :94%;
+}
+
+.col-sm-1{
+    margin: 0;
+    padding: 0;
+}
+.col-sm-1{
+    padding-right:0 ;
+}
+button{
+    border:0
+}
+.undersearch{
+    margin-top: 3%;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+h2{
+    color: rgb(8, 241, 191);
+} 
+h4{
+    background-color: aliceblue;
+    color: rgb(252, 2, 231);
+    border-radius: 0 2px;
+    padding: 10px;
+}
